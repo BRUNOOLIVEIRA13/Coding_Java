@@ -1,5 +1,5 @@
 <h1 align="center">
-    Java - Praticando pelo HackerRank e URI
+    Java - Praticando
 </h1>
 
 
@@ -42,7 +42,7 @@ Esses exercícios foram desenvolvidos com as seguintes tecnologias:
 
 ## 💻 Propósito
 
-Este repositorio têm como propósito além de aprender os recursos fundamentais do Java, avançar na linguagem e desenvolver tarefas utilizando suas mais variadas funcionalidades e bibliotecas. 
+Este repositorio têm como propósito compartilhar os exercícios feitos através de plataformas, aprender os recursos fundamentais do Java, avançar na linguagem e desenvolver tarefas utilizando suas mais variadas funcionalidades e bibliotecas. 
 
 
 ## :memo: Licença
