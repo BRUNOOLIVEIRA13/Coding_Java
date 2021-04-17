@@ -20,8 +20,6 @@ public class DataTypes {
         s += scan.nextLine();
         scan.close();
 
-        // Note: If you have trouble reading the entire String, please go back and review the Tutorial closely.
-
         /* Print the sum of both integer variables on a new line. */
         System.out.println(i + i2);
 
