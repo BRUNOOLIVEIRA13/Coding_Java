@@ -9,7 +9,7 @@ import java.util.*;
  * find and print the meal's total cost. Round the result to the nearest integer.
  */
 
-public class ArithmeticOperators {
+public class Day02ArithmeticOperators {
 
     static void solve(double mealCost, double tipPercent, double taxPercent) {
         double totalCost;

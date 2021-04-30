@@ -1,7 +1,6 @@
 package HackerRank.desafios;
 
 import java.util.*;
-import java.io.*;
 import java.util.stream.IntStream;
 
 /**
@@ -16,7 +15,7 @@ import java.util.stream.IntStream;
  * @version 1.0.0
  */
 
-public class Person {
+public class Day04Person {
 
     private int age;
 
@@ -28,7 +27,7 @@ public class Person {
         this.age = age;
     }
 
-    public Person(int initialAge) {
+    public Day04Person(int initialAge) {
         // Checks on initialAge if it is negative, if negative, age = 0 and a message print.
         if (initialAge >= 0) {
             setAge(initialAge);
@@ -67,7 +66,7 @@ public class Person {
 
                 int age = scan.nextInt();
 
-                Person person = new Person(age);
+                Day04Person person = new Day04Person(age);
                 person.amIOld();
 
                 IntStream.range(0, 3).forEach(p -> person.yearPasses());

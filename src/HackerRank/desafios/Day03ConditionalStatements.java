@@ -10,7 +10,7 @@ import java.util.Scanner;
  * If  is even and greater than , print Not Weird
  */
 
-public class ConditionalStatements {
+public class Day03ConditionalStatements {
 
     private static final Scanner scanner = new Scanner(System.in);
 

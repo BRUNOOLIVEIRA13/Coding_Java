@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 
 import static java.util.stream.Collectors.toList;
 
-public class PickingTickets {
+public class Day0PickingTickets {
 
     // Complete the maxTickets function below.
     static int maxTickets(List<Integer> tickets) {
