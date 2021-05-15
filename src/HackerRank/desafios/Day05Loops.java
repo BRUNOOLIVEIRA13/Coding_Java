@@ -1,12 +1,8 @@
 package HackerRank.desafios;
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * Given an integer n, print its first 10 multiples.
@@ -22,15 +18,14 @@ import java.util.regex.*;
 
 public class Day05Loops {
 
-    private static final Scanner scan = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(bufferedReader.readLine().trim());
 
-    public static void main(String[] args) {
-        int n = scan.nextInt();
-        scan.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-
-        scan.close();
-
-
-
+        for (int i = 1; i <= 10; i++) {
+            int result = n * i;
+            System.out.println(n + " x " + i + " = " + result);
+        }
+        bufferedReader.close();
     }
 }
