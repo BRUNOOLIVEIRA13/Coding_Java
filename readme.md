@@ -1,5 +1,5 @@
 <h1 align="center">
-    Java - Praticando
+    Java - Challenges
 </h1>
 
 
@@ -34,22 +34,21 @@
 
 Esses exercícios foram desenvolvidos com as seguintes tecnologias:
 
-- [Java™ Platform, Standard Edition 8
-  API Specification](https://docs.oracle.com/javase/8/docs/api/index.html)
+- [Java Development Kit Version 11](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)
 
 
 
 
 ## 💻 Propósito
 
-Este repositorio têm como propósito compartilhar os exercícios feitos através de plataformas, aprender os recursos fundamentais do Java, avançar na linguagem e desenvolver tarefas utilizando suas mais variadas funcionalidades e bibliotecas. 
+This repository aims to share exercises and challenges done through platforms, learn the fundamental resources of Java, advance in the language and develop tasks using its most varied functionalities and libraries. 
 
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under the MIT license. See the file [LICENSE](LICENSE.md).
 
 ---
 
-Códigos feitos com ♥ by Bruno Oliveira durante os exercícios propostos nas plataformas [HackerRank](https://www.hackerrank.com/) e [URI Online Judge - Problems & Contests](https://www.urionlinejudge.com.br/). :blue_heart:
+Codes made with ♥ by Bruno Oliveira during the exercises proposed on the platforms [HackerRank](https://www.hackerrank.com/) e [URI Online Judge - Problems & Contests](https://www.urionlinejudge.com.br/). :blue_heart:
 
