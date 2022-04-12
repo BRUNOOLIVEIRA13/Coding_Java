@@ -20,24 +20,27 @@ class P1005MiniMaxSumArray {
         for (int i = 1; i < arr.size(); i++) {
             sum += arr.get(i);
 
-            if(arr.get(i) < min) min=arr.get(i);
+            if(arr.get(i) < min) {
+                min=arr.get(i);
+            }
 
-            if (arr.get(i) > max) max = arr.get(i);
+            if (arr.get(i) > max) {
+                max = arr.get(i);
+            }
         }
-        System.out.print((sum - max) + " " + (sum-min));
+        System.out.print((sum - max) + " " + (sum - min));
     }
 }
 
 class Solution {
     public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
 
-        List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-                .map(Integer::parseInt)
-                .collect(toList());
+            List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+                    .map(Integer::parseInt)
+                    .collect(toList());
 
-        P1005MiniMaxSumArray.miniMaxSum(arr);
-
-        bufferedReader.close();
+            P1005MiniMaxSumArray.miniMaxSum(arr);
+        }
     }
 }
